@@ -5,12 +5,51 @@
     "default": {
       "max_tokens": 150,
       "temperature": 0.9,
-      "top_p": 0.0,
+      "top_p": 0,
       "presence_penalty": 0.6,
-      "frequency_penalty": 0.0,
+      "frequency_penalty": 0,
       "stop_sequences": [
         "[Done]"
       ]
     }
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "firstname",
+        "description": "",
+        "defaultValue": ""
+      },
+      {
+        "name": "lastname",
+        "description": "",
+        "defaultValue": ""
+      },
+      {
+        "name": "city",
+        "description": "",
+        "defaultValue": ""
+      },
+      {
+        "name": "state",
+        "description": "",
+        "defaultValue": ""
+      },
+      {
+        "name": "country",
+        "description": "",
+        "defaultValue": ""
+      },
+      {
+        "name": "botName",
+        "description": "",
+        "defaultValue": ""
+      },
+      {
+        "name": "history",
+        "description": "",
+        "defaultValue": ""
+      }
+    ]
   }
 }
